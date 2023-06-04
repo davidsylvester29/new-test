@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>David Sylvester Jr. - VARIANT A</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+</head>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-red w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Close Menu</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64"><b>David's<br>Domain</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
+    <!--<a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a> -->
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About</a> 
+    <a href="#experience" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Experience</a> 
+    <a href="#success" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Success</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-red w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-red w3-margin-right" onclick="w3_open()">☰</a>
+  <span>David's Domain</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:px" id="showcase">
+    <h1 class="w3-jumbo"><b>David Sylvester Jr.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Software QA Engineer</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+  </div>
+  
+  <!-- Photo grid (modal) -->
+  <div class="w3-row-padding">
+    <div class="w3-half">
+      <img src="David_Profile_Pic.png" style="width:50%" onclick="onClick(this)" alt="Hi, My name is David and welcome to my domain!">
+      <img src="SQA_Make_it_RIGHT.jpg" style="width:75%" onclick="onClick(this)" alt="Anyone can pass and fail tests, but can you bring quality to the table?">
+      <img src="Matrix_QA.png" style="width:75%" onclick="onClick(this)" alt="Perceptions of QA are observed as the bad news department, but ">
+    </div>
+
+    <div class="w3-half">
+      <img src="QA_Engineer_Magnifying.png" style="width:50%" onclick="onClick(this)" alt="A QA engineer is...">
+      <img src="Smile.png" style="width:80%" onclick="onClick(this)" alt="Not only do I smile because I am a QA Engineer...">
+      <img src="QA_ QC_T.png" style="width:90%" onclick="onClick(this)" alt="QA is not only...">
+    </div>
+  </div>
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xxlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- About -->
+  <div class="w3-container" id="about" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>About Me</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>⚪💪I'm a highly motivated Software QA Engineer with hands-on experience in software testing for Web & Mobile applications.</p> 
+    <p>⚪💡Strong adaptable problem-solver who desires to contribute my skills focused on innovation, creativity, and efficiency.</p>
+    <p>⚪✔️Working knowledge of deliverables in Agile, Hybrid, and Waterfall Methodoligies.</p>
+    <p>⚪💬Outstanding interpersonal, written and verbal communication skills.</p>
+    <p>⚪🗣️Native spoken language is English and I'm currently learning Portuguese.</p>
+    <p>I think having integrity in passion, communication, and problem-solving represents the fundamental pillars for any competent QA professional.</p>
+    <p>A genuine passion for one's work ensures a commitment to delivering high-quality outcomes, as continuous improvement becomes a constant pursuit. Practical and well-established communication skills are essential in serving as a conduit between stakeholders and end-users, ensuring a thorough understanding of requirements and expectations. Additionally, the ability to adopt multiple perspectives allows for proficient problem-solving capabilities. While my affinity for mathematics highlights my inclination toward analytical thinking, it is crucial to acknowledge that problem-solving isn't simply a math skill; it's a life skill.
+    </p>
+
+    <h3 class="w3-padding-16 w3-text-red">Professional Skills</h3>
+    <ul class="professional">
+      <li>API Testing</li>
+      <li>Bash Scripting</li>
+      <li>SQL</li>
+      <li>Agile Environment</li>
+      <li>Remote Environment</li>
+      <li>Scrum</li>
+      <li>HTML and CSS</li>
+      <li>Javascript</li>
+      <li>NodeJS</li>
+      <li>GitHub Actions</li>
+    </ul>
+
+    <h3 class="w3-padding-16 w3-text-red">Personal Skills</h3>
+      <ul class="personal">
+        <li>•Passionate</li>
+        <li>•Clear Communication</li>
+        <li>•Critical thinking</li>
+        <li>•Detail Oriented</li>
+        <li>•Time Management and Productivity</li>
+        <li>•Quick Learner</li>
+        <li>•Collaborative</li>
+        <li>•Committed</li>
+      </ul>
+
+      <h3 class="w3-padding-16 w3-text-red">Tools</h3>
+      <ul class="tools">
+        <li><strong>Test Case Management:</strong> Testlodge, Qase, Testrail</li>  
+        <li><strong>Bug Tracking:</strong> JIRA, DoneDone</li> 
+        <li><strong>API Testing:</strong> Postman, Chrome Development Tools</li> 
+        <li><strong>Code Repository:</strong> GitHub</li> 
+        <li><strong>Database:</strong> MySQL</li>  
+        <li><strong>Mobile Testing:</strong> Browserstack</li>  
+        <li><strong>IDE:</strong> Microsoft Visual Studio Code</li>  
+        <li><strong>Automation:</strong> Cypress</li>  
+        <li><strong>CI/CD:</strong> GitHub Actions</li>  
+      </ul>
+
+
+  </div>
+
+
+
+
+  <!-- Experience -->
+  <div class="w3-container" id="experience" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Experience.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    
+        <div class="w3-container w3-justify w3-text-black">
+          <h5 class="w3-text-black"> <b>QA Engineer | Rightpoint</b>
+          </h5>
+          <h6 class="w3-text-black"><i class="fa fa-calendar w3-xxsmall fa-fw w3-margin-right"></i>  June 2021 - March 2023
+          </h6>
+          <ul class="professional">
+            <li>Created test cases and bug reports using TestLodge, Jira, and DoneDone tools.</li>
+            <li>Validated Celigo flows by producing and executing End to End test cases.</li>
+            <li>Partnered with Developers to follow up on Defects and Issues.</li>
+            <li>Supported releases of new features early mornings and after hours.</li>
+            <li>Successfully balanced project management with routine QA tasks, maintaining an efficient workflow.</li>
+          </ul>
+          <hr style="width:488px" class="w3-opacity">
+        </div>
+  
+      
+        <div class="w3-container w3-justify w3-text-black">
+            <h5 class="w3-text-black"><b>Software QA Engineer | DXC Technology</b>
+            </h5>
+            <h6 class="w3-text-black"><i class="fa fa-calendar w3-xxsmall fa-fw w3-margin-right"></i>  December 2018 - June 2021
+            </h6>
+            <ul class="professional">
+            <li>Performed cross-platform, functional, regression testing, and UI testing for web & mobile apps.</li>
+            <li>Participated in stand-ups for inter-team communications and sprint planning.</li>
+            <li>Utilized SQL for data validation and created a requirements traceability matrix to ensure thorough test coverage.</li>
+            <li>Voluntered to tackle new API web service tasks using Postman.</li>
+            </ul>
+        </div> 
+    
+    
+    <p>My experience extends to API testing, where I have accumulated over a year of practical knowledge. Additionally, I have delved into SQL for the purpose of conducting database testing. During my spare time, I engaged with Selenium in a local environment, exploring its capabilities and experimenting with automating tasks, such as increasing the view count of YouTube videos without actual viewership. To further strengthen my skills in automation testing, I am currently enrolled in a QA Automation course, seeking to enhance my proficiency in this domain.
+    </p>
+    <p><b>Download my resume below!</b> :)</p>
+  </div>
+
+  <!-- The Team -->
+  <!--<div class="w3-row-padding w3-grayscale">
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>John Doe</h3>
+          <p class="w3-opacity">CEO & Founder</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <div class="w3-container">
+          <h3>Jane Doe</h3>
+          <p class="w3-opacity">Designer</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col m4 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Mike Ross</h3>
+          <p class="w3-opacity">Architect</p>
+          <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Success -->
+  <div class="w3-container" id="success" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Success</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>I've had the opportunity to observe the fruit of my labor and intend to continue improving in every aspect as a QA professional.</p>
+  
+
+    <div class="w3-row-padding">
+        <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-light-grey w3-center">
+            <li class="w3-dark-grey w3-xlarge w3-padding-32">Resume Highlights</li>
+            <li class="w3-padding-16">5 Years Experience</li>
+            <li class="w3-padding-16">Improved QA processes</li>
+            <li class="w3-padding-16">Delivered and presented process document</li>
+            <li class="w3-padding-16">US Citizen (CDT)</li>
+            <li class="w3-padding-16">Always improving</li>
+            <!--<li class="w3-padding-16">
+            <h2>$ 199</h2>
+            <span class="w3-opacity">per room</span>
+            </li>-->
+            <li class="w3-light-grey w3-padding-24">
+            <a href="https://drive.google.com/file/d/1uTTyeAGuuOYZgDJRTL2Ad2FElZ4mBVLm/view?usp=sharing" target="_blank">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">
+                <i class="fa fa-download"></i>Download Resume</button>
+            </a>
+            </li>
+        </ul>
+        </div>
+            
+        <div class="w3-half">
+        <ul class="w3-ul w3-light-grey w3-center">
+            <li class="w3-red w3-xlarge w3-padding-32">Results Highlights</li>
+            <li class="w3-padding-16">Top QA Engineer candidate out of 500 testers</li>
+            <li class="w3-padding-16">Prevented Defects by 20%</li>
+            <li class="w3-padding-16">"Employee of the month" quote from Client</li>
+            <li class="w3-padding-16">Flexable time for completion</li>
+            <li class="w3-padding-16">Earned ISTQB Certification</li>
+            <!--<li class="w3-padding-16">
+            <h2>$ 249</h2>
+            <span class="w3-opacity">per room</span>
+            </li>-->
+            <li class="w3-light-grey w3-padding-24">
+            <a href="https://atsqa.org/certified-testers/profile/b00fbacf96ee457788d88339b84e32e3" target="_blank">
+            <button class="w3-button w3-red w3-padding-large w3-hover-black">
+            <i class="fa fa-id-card"></i>Display Credential</button>
+            </a>
+            </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!-- Contact -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+    <hr style="width:50px;border:5px solid red" class="w3-round">
+    <p>Do you want to get in touch with me? Feel free to reach out to me in any preferred method below :) I look forward to meeting you!</p>
+    <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Houston, TX, United States</p>
+        <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +1 346-498-3183</p>
+        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> david.sylvester.j@mail.com</p>
+      </div>
+    <!--<form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+    </form>  -->
+    
+
+    
+    
+    
+
+  </div>
+
+<!-- End page content -->
+</div>
+
+<!-- W3.CSS Container -->
+<!-- <div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>-->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px">
+    <p class="w3-right"><a href="https://www.linkedin.com/in/davidsylvesterjr/" title="W3.CSS" target="_blank" class="w3-hover-opacity">LinkedIn</a>
+        <a href="https://github.com/davidsylvester29" title="W" target="_blank" class="w3-hover-opacity">GitHub</a>
+    </p>
+    <p class="w3-right">
+    </p>
+</div>
+<i class="fa fa-linkedin w3-hover-opacity"></i></a>
+<a href="https://github.com/davidsylvester29" target="_blank"><i class="fa fa-code-fork w3-hover-opacity"></i></a>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
