@@ -1,1 +1,413 @@
-# new-test
+<!DOCTYPE html>
+<html>
+<head>
+<title>David Sylvester Jr. - RESUME</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="David_CROPPED.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <!--<a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>PHOTOS</p>
+  </a>-->
+  <a href="#experience" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-suitcase w3-xxlarge"></i>
+    <p>EXPERIENCE</p>
+  </a>
+  <a href="#success" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-star w3-xxlarge"></i>
+    <p>SUCCESS</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
+    <a href="#experience" class="w3-bar-item w3-button" style="width:20% !important">EXPERIENCE</a>
+    <a href="#success" class="w3-bar-item w3-button" style="width:20% !important">SUCCESS</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:20% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small"></span>David Sylvester Jr.</h1>
+    <p>Software QA Engineer</p>
+    <img src="David_Profile_Pic.png" alt="boy" class="w3-image" width="200" height="200">
+  </header>
+
+  <!-- ABOUT ME Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+      <p>⚪I'm a highly motivated Software QA Engineer with hands-on experience in software testing for Web & Mobile applications.</p> 
+      <p>⚪Strong adaptable problem-solver who desires to contribute my skills focused on innovation, creativity, and efficiency.</p>
+      <p>⚪Working knowledge of deliverables in Agile, Hybrid, and Waterfall Methodoligies.</p>
+      <p>⚪Outstanding interpersonal, written and verbal communication skills.</p>
+      <p>⚪Native spoken language is English and I'm currently learning Portuguese.</p>
+      <p>I think having integrity in passion, communication, and problem-solving represents the fundamental pillars for any competent QA professional. A genuine passion for one's work ensures a commitment to delivering high-quality outcomes, as continuous improvement becomes a constant pursuit. Practical and well-established communication skills are essential in serving as a conduit between stakeholders and end-users, ensuring a thorough understanding of requirements and expectations. Additionally, the ability to adopt multiple perspectives allows for proficient problem-solving capabilities. While my affinity for mathematics highlights my inclination toward analytical thinking, it is crucial to acknowledge that problem-solving isn't simply a math skill; it's a life skill.
+      </p>
+    
+    <!--Skill Template with Meter Scale-->
+    <!--<h3 class="w3-padding-16 w3-text-light-grey">Professional Skills</h3>
+    <p class="w3-wide">Photography</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">Web Design</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Photoshop</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>-->
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Professional Skills</h3>
+      <ul class="professional">
+        <li>API Testing</li>
+        <li>Bash Scripting</li>
+        <li>SQL</li>
+        <li>Agile Environment</li>
+        <li>Remote Environment</li>
+        <li>Scrum</li>
+        <li>HTML and CSS</li>
+        <li>Javascript</li>
+        <li>NodeJS</li>
+        <li>GitHub Actions</li>
+      </ul>
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Personal Skills</h3>
+      <ul class="personal">
+        <li>Passionate</li>
+        <li>Clear Communication</li>
+        <li>Critical thinking</li>
+        <li>Detail Oriented</li>
+        <li>Time Management and Productivity</li>
+        <li>Quick Learner</li>
+        <li>Collaborative</li>
+        <li>Committed</li>
+      </ul>
+
+    <h3 class="w3-padding-16 w3-text-light-grey">Tools</h3>
+      <ul class="tools">
+        <li><strong>Test Case Management:</strong> Testlodge, Qase, Testrail</li>  
+        <li><strong>Bug Tracking:</strong> JIRA, DoneDone</li> 
+        <li><strong>API Testing:</strong> Postman, Chrome Development Tools</li> 
+        <li><strong>Code Repository:</strong> GitHub</li> 
+        <li><strong>Database:</strong> MySQL</li>  
+        <li><strong>Mobile Testing:</strong> Browserstack</li>  
+        <li><strong>IDE:</strong> Microsoft Visual Studio Code</li>  
+        <li><strong>Automation:</strong> Cypress</li>  
+        <li><strong>CI/CD:</strong> GitHub Actions</li>  
+      </ul>
+      
+
+
+    <!--Grid showing the numbers-->
+    <!--<div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">11+</span><br>
+        Partners
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">55+</span><br>
+        Projects Done
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">89+</span><br>
+        Happy Clients
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">150+</span><br>
+        Meetings
+      </div>
+    </div>-->
+
+    <a href="https://drive.google.com/file/d/1uTTyeAGuuOYZgDJRTL2Ad2FElZ4mBVLm/view?usp=sharing" target="_blank">
+      <button class="w3-button w3-blue w3-padding-large w3-section">
+        <i class="fa fa-download"></i> Download Resume
+      </button>
+    </a>
+    
+    <!-- Grid for pricing tables Template -->
+    <!--<h3 class="w3-padding-16 w3-text-light-grey">My Price</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">5GB Storage</li>
+          <li class="w3-padding-16">Mail Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 10</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Pro</li>
+          <li class="w3-padding-16">Web Design</li>
+          <li class="w3-padding-16">Photography</li>
+          <li class="w3-padding-16">50GB Storage</li>
+          <li class="w3-padding-16">Endless Support</li>
+          <li class="w3-padding-16">
+            <h2>$ 25</h2>
+            <span class="w3-opacity">per month</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black">Sign Up</button>
+          </li>
+        </ul>
+      </div>-->
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <!--<h3 class="w3-padding-24 w3-text-light-grey">My Reputation</h3>  
+    <img src="/w3images/bandmember.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Chris Fox.</span> CEO at Mighty Schools.</p>
+    <p>John Doe saved us from a web disaster.</p><br>
+    
+    <img src="/w3images/avatar_g2.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:80px">
+    <p><span class="w3-large w3-margin-right">Rebecca Flex.</span> CEO at Company.</p>
+    <p>No one is better than John Doe.</p>-->
+  <!-- End About Section -->
+  
+  
+
+
+
+  <!-- Portfolio Section -->
+  <!-- <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="w3-text-light-grey">My Photos</h2>
+    <hr style="width:200px" class="w3-opacity"> -->
+
+  <!-- EXPERIENCE Section -->
+  <div class="w3-padding-64 w3-content" id="experience">
+    <h2 class="w3-text-light-grey">Experience</h2>
+    <hr style="width:200px" class="w3-opacity">
+  <!-- Companies-->
+    <div class="w3-container w3-card w3-black w3-margin-bottom">
+      <div class="w3-container w3-justify w3-text-grey">
+        <h5 class="w3-text-light-grey"> <b>QA Engineer | Rightpoint</b>
+        </h5>
+        <h6 class="w3-text-light-grey"><i class="fa fa-calendar w3-xxsmall fa-fw w3-margin-right"></i>  June 2021 - March 2023
+        </h6>
+        <ul class="professional">
+          <li>Created test cases and bug reports using TestLodge, Jira, and DoneDone tools.</li>
+          <li>Validated Celigo flows by producing and executing End to End test cases.</li>
+          <li>Partnered with Developers to follow up on Defects and Issues.</li>
+          <li>Supported releases of new features early mornings and after hours.</li>
+          <li>Successfully balanced project management with routine QA tasks, maintaining an efficient workflow.</li>
+        </ul>
+        <hr style="width:488px" class="w3-opacity">
+    </div>
+
+    
+    <div class="w3-container w3-justify w3-text-grey">
+      <h5 class="w3-text-light-grey"><b>Software QA Engineer | DXC Technology</b>
+      </h5>
+      <h6 class="w3-text-light-grey"><i class="fa fa-calendar w3-xxsmall fa-fw w3-margin-right"></i>  December 2018 - June 2021
+      </h6>
+      <ul class="professional">
+        <li>Performed cross-platform, functional, regression testing, and UI testing for web & mobile apps.</li>
+        <li>Participated in stand-ups for inter-team communications and sprint planning.</li>
+        <li>Utilized SQL for data validation and created a requirements traceability matrix to ensure thorough test coverage.</li>
+        <li>Voluntered to tackle new API web service tasks using Postman.</li>
+      </ul>
+    </div>    
+</p>
+<!-- END EXPERIENCE Section -->
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <!-- SUCCESS Section -->
+  <div class="w3-padding-6 w3-content" id="success">
+    <br>
+    <br>
+    <br>
+    <h2 class="w3-text-light-grey">Success</h2>
+    <hr style="width:200px" class="w3-opacity">
+      <p>Top QA Engineer candidate out of 500 various testers.</p>
+      <p>Improved QA processes by introducing customizable templates</p>
+      <p>Delivered and presented process document for one of the largest clients</p>
+      <p>Earned ISTQB Certification</p>
+      <a href="https://atsqa.org/certified-testers/profile/b00fbacf96ee457788d88339b84e32e3" target="_blank">
+        <button class="w3-button w3-blue w3-padding-large w3-section">
+        <i class="fa fa-id-card"></i> Show Credential
+        </button>
+      </a>
+  </div>
+  <!-- END SUCCESS Section -->
+
+
+
+    <!-- Grid for photos -->
+    <!--<div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/rocks.jpg" style="width:100%">
+        <img src="/w3images/sailboat.jpg" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="/w3images/underwater.jpg" style="width:100%">
+        <img src="/w3images/chef.jpg" style="width:100%">
+        <img src="/w3images/wedding.jpg" style="width:100%">
+        <img src="/w3images/p6.jpg" style="width:100%">
+      </div>-->
+    <!-- End photo grid -->
+    
+  <!-- End Portfolio Section -->
+  
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+   <br>
+  <!-- CONTACT Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Houston, TX, United States</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> +1 346-498-3183</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> david.sylvester.j@mail.com</p>
+    </div>
+
+  </div>  
+
+    <!-- Send me a Message Form Template -->
+    <!--<p>Let's get in touch. Send me a message:</p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form> -->
+  <!-- End Contact Section -->
+  
+  
+    <!-- Footer -->
+    <!-- Social Media Icons-->
+  <footer class="w3-content w3-padding-64 w3-text-blue w3-xlarge">
+    <!-- <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i> -->
+    <a href="https://www.linkedin.com/in/davidsylvesterjr/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    <a href="https://github.com/davidsylvester29" target="_blank"><i class="fa fa-code-fork w3-hover-opacity"></i></a>
+  <!-- END CONTACT Section -->
+
+
+    <!-- Powered by w3 Link Template-->  
+    <!-- <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p> 
+    -->
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+   
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+</body>
+</html>
